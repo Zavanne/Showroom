@@ -1,0 +1,93 @@
+    h1 {
+        font-size: 55px; /* Set the font size to double the default size (adjust as needed) */
+        /* You can also add other styles here to customize the appearance of the title */
+    }
+    p {
+        font-size: 22px; /* Replicated what AI provided for the description */
+    }
+    div {
+        font-size: 20px; /* Replicated what AI provided for the description */
+    }
+    button {
+        font-size: 18px; /* Replicated what AI provided for the description */
+    }
+    input {
+        font-size: 18px; /* Replicated what AI provided for the description */
+    }
+    label {
+        font-size: 20px; /* Replicated what AI provided for the description */
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
+        margin: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .product-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .product-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+
+    .order-status {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    .total-compra {
+        color: #28a745;
+        font-weight: bold;
+    }
+
+    .best-seller {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    .worst-seller {
+        color: #ffc107;
+        font-weight: bold;
+    }
