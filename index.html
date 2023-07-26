@@ -1,4 +1,4 @@
-    <!-- 
+<!--
 Problem: Online Shop Order Fulfillment
 
 You are tasked with developing a program to streamline the order fulfillment process for an online shop. 
@@ -20,27 +20,26 @@ Sales Analytics: Generate sales reports to track the performance of products. Th
 
 -->
 <title>Gadget Genie</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to Gadget Genie!</h1>
-        <p>We are a store selling the latest gadgets and consumer electronics specifically curated for the tech-savvy audience.</p>
-    </header>
+<link rel="stylesheet" href="style.css">
 
-    <div class="container">
-        <h2>Here is the products catalog, get yours while they last:</h2>
-        <div class="product-grid" id="productsCatalog"></div>
-        <br>
-        <label for="productNumber">Enter product number:</label>
-        <input type="number" id="productNumber" min="1" max="10">
-        <label for="quantity">Enter quantity:</label>
-        <input type="number" id="quantity" min="1">
-        <button onclick="processOrder()">Add to Cart</button>
-        <button onclick="checkOut()">Check Out</button>
-        <p class="order-status" id="orderStatus"></p>
-        <p id="currentShoppingCart"></p>
-        <p class="total-compra" id="TotalCompra"></p>
-        <p class="best-seller" id="BestSeller"></p>
-        <p class="worst-seller" id="WorstSeller"></p>
-    </div>
-</body>
+<h1>Welcome to Gadget Genie!</h1>
+<p>We are a store selling the latest gadgets and consumer electronics specifically curated for the tech-savvy audience.</p>
+
+<div class="container">
+    <h2>Here is the products catalog, get yours while they last:</h2>
+    <div class="product-grid" id="productsCatalog"></div>
+    <br>
+    <label for="productNumber">Enter product number:</label>
+    <input type="number" id="productNumber" min="1" max="10">
+    <label for="quantity">Enter quantity:</label>
+    <input type="number" id="quantity" min="1">
+    <button onclick="processOrder()">Add to Cart</button>
+    <button onclick="checkOut()">Check Out</button>
+    <p class="order-status" id="orderStatus"></p>
+    <p id="currentShoppingCart"></p>
+    <p class="total-compra" id="TotalCompra"></p>
+    <p class="best-seller" id="BestSeller"></p>
+    <p class="worst-seller" id="WorstSeller"></p>
+</div>
+
+<script src="script.js"></script>
